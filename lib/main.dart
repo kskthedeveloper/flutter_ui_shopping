@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
       routes: {
         //PROFILE pages
         PROFILE_PAGES[0]: (context) => ProfilePageOne(),
+        PROFILE_PAGES[1]: (context) => ProfilePageTwo(),
 
         SIGN_UP_PAGES[0]: (context) => SignPageOne(),
         SIGN_UP_PAGES[1]: (context) => SignPageTwo(),
@@ -43,10 +44,9 @@ class MyApp extends StatelessWidget {
         ///FEED group page
         FEED_PAGES[0]: (context) => FeedPageOne(),
         FEED_PAGES[1]: (context) => FeedPageTwo(),
-        FEED_PAGES[0]: (context) => FeedPageOne(),
+        FEED_PAGES[2]: (context) => FeedThreePage(),
         FEED_PAGES[3]: (context) => FeedPageFour(),
-        FEED_PAGES[0]: (context) => FeedPageOne(),
-        FEED_PAGES[0]: (context) => FeedPageOne(),
+        FEED_PAGES[4]: (context) => FeedFivePage(),
         FEED_PAGES[9]: (context) => FeedPageTen(),
         FEED_PAGES[10]: (context) => FeedPageEleven(),
         FEED_PAGES[11]: (context) => FeedPageTwelve(),
